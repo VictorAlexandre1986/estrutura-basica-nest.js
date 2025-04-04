@@ -31,6 +31,20 @@
 $ npm install
 ```
 
+## Criando uma migração
+```bash
+$ npx prisma migrate dev --name init
+```
+## Se quiser aplicar migrações pendentes
+```bash
+$ npx prisma generate
+```
+
+## Verificar se as mudanças foram foites no BD
+```bash
+$ npx prisma studio
+```
+
 ## Compile and run the project
 
 ```bash
